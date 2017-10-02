@@ -70,3 +70,12 @@ An example using a minimal HTML wrapper:
 </script>
 </html>
 ```
+
+## Viewing the WSI from the Cloud
+
+This example is provided using the Amazon S3 service, other major (Google or Azure) or minor cloud servies should also work.
+
+* Establish an Amazon S3 bucket (https://aws.amazon.com/s3/)
+* Upload your image tile containing folder, .dzi file, and .html wrapper.
+* File permissiosn must be set so that all 3 items are read-access from the viewer location (or public)
+* Slides can be viewed via a link (https://s3.amazonaws.com/oswsi/F0ba3OtXIUaZfZ6Y_Y8yMA.html) or embedded in a webpage (https://s3.amazonaws.com/oswsi/index.html)
