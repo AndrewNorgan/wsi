@@ -77,5 +77,5 @@ This example is provided using the Amazon S3 service, other major (Google or Azu
 
 * Establish an Amazon S3 bucket (https://aws.amazon.com/s3/)
 * Upload your image tile containing folder, .dzi file, and .html wrapper.
-* File permissiosn must be set so that all 3 items are read-access from the viewer location (or public)
+* File permissions must be set so that all 3 items are read-access from the viewer location (or public)
 * Slides can be viewed via a link (https://s3.amazonaws.com/oswsi/F0ba3OtXIUaZfZ6Y_Y8yMA.html) or embedded in a webpage (https://s3.amazonaws.com/oswsi/index.html)
